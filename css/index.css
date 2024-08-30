@@ -1,0 +1,29 @@
+html, body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
+  
+  header {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+ blockquote{
+    max-width: 600px;
+    margin: 0 auto;
+    /* border: 1px solid #009879;
+    border-radius: 5px 5px 5px 5px; */
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+    font: italic 1.5rem Georgia, serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+ }
+ #pagenumspace{
+  padding: 20px;
+ }
+ .pagenavigation{
+  text-align: center;
+ }

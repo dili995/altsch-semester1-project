@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 - Tables</title>
+    <link rel="stylesheet" href="./css/table.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html" style="color: #009879">Back to bio</a>
+    </nav>
+    <hr />
+    <main>
+      <h1>Alt School Program</h1>
+      <p>
+        Here, I tried creating a table (2 tables actually) to list the all the
+        programs and courses offered at Alt School. In total, there are 5
+        Programs or Schools from which prospective students in Alt School can
+        pick from and they are all listed below.
+      </p>
+      <ul>
+        <li>The School of Data</li>
+        <li>The School of Product</li>
+        <li>The School of Business</li>
+        <li>The School of Creative Economics</li>
+        <li>The School of Engineering</li>
+      </ul>
+      <p>
+        The reason I made 2 tables was to try out different styles and see how
+        they would pan out.
+      </p>
+    </main>
+    <h2 style="padding: 0 20px">Table 1</h2>
+
+    <div class="table1" id="tablemargin">
+      <table>
+        <thead>
+          <tr>
+            <th>Schools</th>
+            <th colspan="4">Courses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>School of Data</th>
+            <td>Data Engineering</td>
+            <td>Data Science</td>
+            <td colspan="2">Data Analysis</td>
+          </tr>
+          <tr>
+            <th>School of Engineering</th>
+            <td>Cyber Security</td>
+            <td>Cloud Engineering</td>
+            <td>Backend Engineering</td>
+            <td>Frontend Engineering</td>
+          </tr>
+          <tr>
+            <th>School of Product</th>
+            <td>Product Marketing</td>
+            <td>Product Design</td>
+            <td colspan="2">Product Management</td>
+          </tr>
+          <tr>
+            <th>School of Business</th>
+            <td colspan="4">
+              High-Impact Selling: From Prospecting to Closing
+            </td>
+          </tr>
+          <tr>
+            <th>School of Creative Economics</th>
+            <td colspan="2">Content Mastery for African Creators</td>
+            <td colspan="2">
+              Navigating the Music Business in Africa: Afrobeats case study
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          A table showing the schools and courses offered in Alt School.
+        </tfoot>
+      </table>
+    </div>
+    <br />
+
+    <h2 style="padding: 0 20px">Table 2</h2>
+
+    <div class="table2" id="tablemargin">
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th>Schools</th>
+            <th>Courses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="4">School of Data</th>
+          </tr>
+          <tr>
+            <td>Data Engineering</td>
+          </tr>
+          <tr>
+            <td>Data Science</td>
+          </tr>
+          <tr>
+            <td>Data Analysis</td>
+          </tr>
+          <tr>
+            <th rowspan="5">School of Engineering</th>
+          </tr>
+          <tr>
+            <td>Cyber Security</td>
+          </tr>
+          <tr>
+            <td>Cloud Engineering</td>
+          </tr>
+          <tr>
+            <td>Backend Engineering</td>
+          </tr>
+          <tr>
+            <td>Frontend Engineering</td>
+          </tr>
+          <tr>
+            <th rowspan="4">School of Product</th>
+          </tr>
+          <tr>
+            <td>Product Marketing</td>
+          </tr>
+          <tr>
+            <td>Product Design</td>
+          </tr>
+          <tr>
+            <td>Product Management</td>
+          </tr>
+          <tr>
+            <th>School of Business</th>
+            <td>High-Impact Selling: From Prospecting to Closing</td>
+          </tr>
+          <tr>
+            <th rowspan="3">School of Creative Economics</th>
+          </tr>
+          <tr>
+            <td>Content Mastery for African Creators</td>
+          </tr>
+          <tr>
+            <td>
+              Navigating the Music Business in Africa: Afrobeats case study
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          A second table showing the schools and courses offered in Alt School
+          but with a different format.
+        </tfoot>
+      </table>
+    </div>
+    <br><hr>
+    <nav class="pagenavigation">
+      <img class="bottompage" id="bottompage"
+        src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*Gor9gp5VAE8Dtse9.gif"
+        alt="gif of fingers scrolling on a phone"
+        width="50"
+      />
+      <a>Click here to </a>
+      <a href="#" style="color: #009879;">scroll to the top</a>
+      <br />
+      <br />
+    </nav>
+    <hr><br>
+  </body>
+</html>
